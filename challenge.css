@@ -1,0 +1,44 @@
+html, body
+  .wrapper{
+    width:100%;
+    padding-top: 20px;
+    text-align:center;
+  }
+  h2{
+    font-family:sans-serif;
+    color:#fff;
+  }
+  .carousel{
+    width:90%;
+    margin:0px auto;
+  }
+  .slick-slide{
+    margin:10px;
+  }
+  .slick-slide img{
+    width:100%;
+    border: 2px solid #fff;
+  }
+
+  body {
+      text-align: left;
+  }
+
+
+.slick-prev:before {
+    display: none;
+   
+}
+.gambar {
+    margin-left: 10px;
+    margin-right: 10px ;
+}
+.slick-prev{
+    top:140px !important;
+    z-index: 100;
+}
+
+.slick-next{
+    transform: rotate(180deg);
+    top: 162px !important;
+}
